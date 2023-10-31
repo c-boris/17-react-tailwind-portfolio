@@ -9,10 +9,9 @@ const Home = () => {
 
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='text-blue-600 text-xl'>Hi, my name is</p>
-        <h1 className='text-4xl font-bold text-gray-200'>Bob Doe</h1>
-        <h2 className='text-4xl font-bold text-gray-400'>I’m a Full Stack Developer.</h2>
-        <p className='text-gray-400 py-4 max-w-[700px]'>I’m a full-stack developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building responsive full-stack web applications.</p>
+        <p className='text-gray-200 font-bold text-4xl'>Hello!</p>
+        <h1 className='text-6xl font-bold text-gray-400'>I’m a Full Stack Dev.</h1>
+        <h2 className='text-4xl font-bold text-gray-200'>I build Digital Experiences for People.</h2>
         <div>
           <button className='text-gray-200 border-2 border-gray-400 px-6 py-3 my-2 flex items-center rounded-md hover:bg-blue-600'>
             <Link to='work' smooth={true} duration={500}>
