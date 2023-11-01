@@ -24,7 +24,7 @@ const About = () => {
           <div>
           <Fade direction="right">
             <p className='transition-opacity duration-500 hover:opacity-100'>
-            Over the past two years, I have focused on enhancing my skills in creative web development, with a strong emphasis on interactivity. <br />I belive in crafting web experiences that are not just functional but also visually captivating. <br />I am eager to apply my creative skills to new projects. Let’s collaborate and work together to create something.
+            Over the past two years, I have focused on enhancing my skills in creative web development, with a strong emphasis on interactivity. <br/>I belive in crafting web experiences that are not just functional but also visually captivating. <br />I am eager to apply my creative skills to new projects. <br/>Let’s collaborate and work together to create something.
             </p>
             </Fade>
           </div>

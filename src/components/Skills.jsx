@@ -1,11 +1,13 @@
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import RubyOnRails from '../assets/rails.png';
-import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
+import Sass from '../assets/sass.svg';
+import Azure from '../assets/azure.svg';
+import JavaScript from '../assets/javascript.svg';
+import ReactImg from '../assets/react.svg';
+import Node from '../assets/node.svg';
+import RubyOnRails from '../assets/rails.svg';
+import GitHub from '../assets/github.svg';
+import Tailwind from '../assets/tailwind.svg';
+import PostGre from '../assets/postgresql.svg'
+import Aws from '../assets/aws.svg'
 import { Fade } from "react-awesome-reveal";
 
 const Skills = () => {
@@ -20,23 +22,15 @@ const Skills = () => {
           <p className='py-4 text-gray-400'>These are the technologies I’ve worked with.</p>
         </div>
         </Fade>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+        <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8'>
           <Fade cascade damping={0.2}>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
-            <p className='my-4'>HTML</p>
-          </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={CSS} alt='CSS icon' />
-            <p className='my-4'>CSS</p>
-          </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={JavaScript} alt='JavaScript icon' />
             <p className='my-4'>JavaScript</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={ReactImg} alt='React icon' />
-            <p className='my-4'>React</p>
+            <p className='my-4'>ReactJS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={GitHub} alt='GitHub icon' />
@@ -44,15 +38,31 @@ const Skills = () => {
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Node} alt='Node JS icon' />
-            <p className='my-4'>Node JS</p>
+            <p className='my-4'>NodeJS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Tailwind} alt='Tailwind icon' />
-            <p className='my-4'>Tailwind</p>
+            <img className='w-20 mx-auto' src={Tailwind} alt='Tailwind CSS icon' />
+            <p className='my-4'>Tailwind CSS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={RubyOnRails} alt='Ruby on Rails icon' />
             <p className='my-4'>Ruby on Rails</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={PostGre} alt='PostgreSQL icon' />
+            <p className='my-4'>PostgreSQL</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Sass} alt='Sass icon' />
+            <p className='my-4'>Sass</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Azure} alt='Azure DevOps icon' />
+            <p className='my-4'>Azure DevOps</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Aws} alt='Aws icon' />
+            <p className='my-4'>Aws</p>
           </div>
           </Fade>
         </div>
