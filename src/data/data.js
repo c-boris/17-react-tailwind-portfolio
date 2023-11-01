@@ -1,32 +1,32 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.webp'
+import SurfImg from '../assets/projects/surf-shack-supply.webp'
+import JvoImg from '../assets/projects/julie-voix-off.webp'
 
 export const data=[
     {
         id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
+        name:"Wordpress Website",
+        image:SurfImg,
+        github:"https://github.com/c-boris",
+        live:"https://surfshacksupply.com",
     },
     {
         id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
+        name:"Wordpress Website",
+        image:JvoImg,
+        github:"https://github.com/c-boris",
+        live:"https://julie-voix-off.com",
     },
     {
         id:3,
         name:"React JS Application",
-        image:WorkIm,
+        image:SurfImg,
         github:"",
         live:"",
     },
     {
         id:4,
         name:"React JS Application",
-        image:RealEst,
+        image:JvoImg,
         github:"",
         live:"",
     },
