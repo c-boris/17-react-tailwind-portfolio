@@ -93,17 +93,17 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[40%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-md hover:ml-[-10px] duration-300 bg-blue-800'>
-            <a className='flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/'>
+            <a className='flex justify-between items-center w-full text-gray-300' href='https://fr.linkedin.com/in/boris-crochet' target='_blank' rel='noopener noreferrer'>
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-md hover:ml-[-10px] duration-300 bg-gray-800'>
-            <a className='flex justify-between items-center w-full text-gray-300' href='https://github.com/'>
+            <a className='flex justify-between items-center w-full text-gray-300' href='https://github.com/c-boris' target='_blank' rel='noopener noreferrer'>
               Github <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-md hover:ml-[-10px] duration-300 bg-blue-800'>
-            <a className='flex justify-between items-center w-full text-gray-300' href='mailto:dev@gmail.com'>
+            <a className='flex justify-between items-center w-full text-gray-300' href='mailto:c-boris@live.com' target='_blank' rel='noopener noreferrer'>
               Email <HiOutlineMail size={30} />
             </a>
           </li>

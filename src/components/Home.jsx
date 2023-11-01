@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll';
 import ParticlesBg from "particles-bg";
-import '../index.css';
+
 import { Fade, AttentionSeeker } from "react-awesome-reveal";
 
 
