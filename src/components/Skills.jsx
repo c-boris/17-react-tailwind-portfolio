@@ -25,43 +25,43 @@ const Skills = () => {
         <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8'>
           <Fade cascade damping={0.2}>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={JavaScript} alt='JavaScript icon' />
+            <img className='w-20 h-20 mx-auto' src={JavaScript} alt='JavaScript icon' />
             <p className='my-4'>JavaScript</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={ReactImg} alt='React icon' />
+            <img className='w-20 h-20 mx-auto' src={ReactImg} alt='React icon' />
             <p className='my-4'>ReactJS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={GitHub} alt='GitHub icon' />
+            <img className='w-20 h-20 mx-auto' src={GitHub} alt='GitHub icon' />
             <p className='my-4'>GitHub</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Node} alt='Node JS icon' />
+            <img className='w-20 h-20 mx-auto' src={Node} alt='Node JS icon' />
             <p className='my-4'>NodeJS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Tailwind} alt='Tailwind CSS icon' />
+            <img className='w-20 h-20 mx-auto' src={Tailwind} alt='Tailwind CSS icon' />
             <p className='my-4'>Tailwind CSS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={RubyOnRails} alt='Ruby on Rails icon' />
+            <img className='w-20 h-20 mx-auto' src={RubyOnRails} alt='Ruby on Rails icon' />
             <p className='my-4'>Ruby on Rails</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={PostGre} alt='PostgreSQL icon' />
+            <img className='w-20 h-20 mx-auto' src={PostGre} alt='PostgreSQL icon' />
             <p className='my-4'>PostgreSQL</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Sass} alt='Sass icon' />
+            <img className='w-20 h-20 mx-auto' src={Sass} alt='Sass icon' />
             <p className='my-4'>Sass</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Azure} alt='Azure DevOps icon' />
+            <img className='w-20 h-20 mx-auto' src={Azure} alt='Azure DevOps icon' />
             <p className='my-4'>Azure DevOps</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Aws} alt='Aws icon' />
+            <img className='w-20 h-20 mx-auto' src={Aws} alt='Aws icon' />
             <p className='my-4'>Aws</p>
           </div>
           </Fade>
