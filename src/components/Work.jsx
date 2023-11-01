@@ -1,4 +1,5 @@
 import { data } from '../data/data.js';
+import { Fade } from "react-awesome-reveal";
 
 const Work = () => {
   // projects file
@@ -7,16 +8,22 @@ const Work = () => {
   return (
     <div name='work' className='w-full h-fit text-gray-200 bg-[#0a192f] pt-24 sm:h-screen'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <Fade direction="left">
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-200 border-blue-600'>
             Work
           </p>
-          <p className='py-6 text-gray-400'>Some of my recent work</p>
+          <p className='py-6 text-gray-400'>Some of my recent work.</p>
+          
         </div>
+        </Fade>
+        
 
         {/* container for projects */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+        
+        <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
           {/* Grid Item */}
+          <Fade direction="up">
           {project.map((item, index) => (
             <div
               key={index}
@@ -44,7 +51,9 @@ const Work = () => {
               </div>
             </div>
           ))}
+          </Fade>
         </div>
+        
       </div>
     </div>
   );
