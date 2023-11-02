@@ -23,7 +23,7 @@ const Skills = () => {
         </div>
         </Fade>
         <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8'>
-          <Fade cascade damping={0.2}>
+          <Fade cascade damping={0.1}>
           <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500 border-2 rounded-md border-gray-400'>
             <img className='w-20 h-20 mx-auto mt-4' src={JavaScript} alt='JavaScript icon' />
             <p className='my-4'>JavaScript</p>
