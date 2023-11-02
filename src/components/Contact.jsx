@@ -2,8 +2,8 @@ import { Fade } from "react-awesome-reveal";
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 pt-24 sm:h-screen'>
-      <form method='POST' action='https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c' className='flex flex-col max-w-[600px] w-full'>
+    <div className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 pt-24 sm:h-screen'>
+      <form name='contact' method='POST' data-netlify="true" className='flex flex-col max-w-[600px] w-full'>
         <Fade direction="down">
           <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 border-blue-600 text-gray-200'>Contact</p>
@@ -34,7 +34,7 @@ const Contact = () => {
           id='message'
           autoComplete='message'
         />
-        <button className='text-gray-200 rounded-md border-2 border-gray-400 hover-bg-blue-600 px-4 py-3 my-8 mx-auto flex items-center'>
+        <button type="submit" className='text-gray-200 rounded-md border-2 border-gray-400 hover:bg-blue-600 px-4 py-3 my-8 mx-auto flex items-center'>
           Let’s Collaborate
         </button>
       </form>
