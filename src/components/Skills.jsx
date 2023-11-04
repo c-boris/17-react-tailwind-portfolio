@@ -22,7 +22,7 @@ const Skills = () => {
           <p className='py-4 text-gray-400'>These are the technologies I’ve worked with.</p>
         </div>
         </Fade>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8'>
+        <div className='w-full text-gray-200 grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8'>
           <Fade cascade damping={0.1}>
           <div className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500 border-2 rounded-md border-gray-400'>
             <img className='w-20 h-20 mx-auto mt-4' src={JavaScript} alt='JavaScript icon' />
