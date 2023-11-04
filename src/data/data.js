@@ -5,7 +5,7 @@ export const data=[
     {
         id:1,
         name:"Wordpress Website",
-        description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+        description: "lorem lorem lorem lorem lorem  ",
         image:SurfImg,
         github:"https://github.com/c-boris",
         live:"https://surfshacksupply.com",
@@ -13,7 +13,7 @@ export const data=[
     {
         id:2,
         name:"Wordpress Website",
-        description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+        description: "lorem lorem lorem lorem lorem  ",
         image:JvoImg,
         github:"https://github.com/c-boris",
         live:"https://julie-voix-off.com",
@@ -21,7 +21,7 @@ export const data=[
     {
         id:3,
         name:"React JS App",
-        description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+        description: "lorem lorem lorem lorem lorem  ",
         image:SurfImg,
         github:"",
         live:"",
@@ -29,7 +29,7 @@ export const data=[
     {
         id:4,
         name:"React JS App",
-        description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+        description: "lorem lorem lorem lorem lorem  ",
         image:JvoImg,
         github:"",
         live:"",

@@ -12,13 +12,13 @@ import { Fade } from "react-awesome-reveal";
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-fit bg-[#0a192f] text-gray-200 pt-24 sm:h-screen'>
+    <div name='skills' className='w-full h-fit  pt-24 sm:h-screen'>
       {/* Container */}
       
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
       <Fade direction="left">
         <div>
-          <p className='text-4xl font-bold inline border-b-4 border-blue-600'>Skills</p>
+          <p className='text-4xl text-gray-200 font-bold inline border-b-4 border-blue-600'>Skills</p>
           <p className='py-4 text-gray-400'>These are the technologies I’ve worked with.</p>
         </div>
         </Fade>

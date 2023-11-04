@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Importez les styles de base de Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
+/* Définissez des styles personnalisés */
 @layer base {
   body {
-    @apply font-[Poppins];
+    font-family: 'Poppins', sans-serif; /* Utilisez le nom de la police importée depuis Google Fonts */
+    background-color: #0a192f; /* Ajoutez la couleur de fond personnalisée ici */
   }
 }
