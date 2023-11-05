@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center z-10 px-4 bg-[#0a192f] text-gray-200'>
+    <section id='navbar' className='fixed w-full h-[80px] flex justify-between items-center z-10 px-4 bg-[#0a192f] text-gray-200'>
       <div>
         <Link to='home' smooth={true} duration={500}>
           <DiCode className='w-10 h-10 cursor-pointer hover:text-gray-400' />
@@ -109,7 +109,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 

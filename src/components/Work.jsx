@@ -5,7 +5,7 @@ const Work = () => {
   const project = data;
 
   return (
-    <div name='work' className='w-full h-fit pt-24 sm:h-screen'>
+    <section id='work' className='w-full h-fit pt-24 sm:h-screen'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <Fade direction="left">
           <div className='pb-8'>
@@ -23,7 +23,7 @@ const Work = () => {
                 <img className='rounded-t-lg' src={item.image} alt={item.name} />
               <div className='p-5'>
                   <h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-200'>{item.name}</h5>
-                <p className='mb-3 font-norma text-gray-400'>{item.description}</p>
+                <p className='mb-3 text-gray-400'>{item.description}</p>
                 <a href={item.live} target='_blank' rel='noopener noreferrer' className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 '>
                   Live
                 </a>
@@ -33,7 +33,7 @@ const Work = () => {
           </Fade>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

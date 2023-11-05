@@ -4,7 +4,7 @@ import { Fade, AttentionSeeker } from "react-awesome-reveal";
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen sm:h-screen'>
+    <section id='home' className='w-full h-screen sm:h-screen'>
       <ParticlesBg color="#0c387b" num={5} type="circle" bg={true} style={{ background: '#0a192f' }} />
       <style>
         {`
@@ -32,7 +32,7 @@ const Home = () => {
           </Fade>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

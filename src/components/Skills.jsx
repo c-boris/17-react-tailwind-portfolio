@@ -12,9 +12,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-fit  pt-24 sm:h-screen'>
-      {/* Container */}
-      
+    <section id='skills' className='w-full h-fit  pt-24 sm:h-screen'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
       <Fade direction="left">
         <div>
@@ -66,9 +64,8 @@ const Skills = () => {
           </div>
           </Fade>
         </div>
-        
       </div>
-    </div>
+    </section>
   );
 };
 

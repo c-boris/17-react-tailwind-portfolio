@@ -2,7 +2,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen flex justify-center items-center p-4 pt-24 sm:h-screen'>
+    <section id='contact' className='w-full h-screen flex justify-center items-center p-4 pt-24 sm:h-screen'>
       <form method='POST' action='https://getform.io/f/03341f6c-7c3d-4617-b108-1eb628621803' className='flex flex-col max-w-[600px] w-full'>
         <Fade direction="down">
           <div className='pb-8'>
@@ -38,7 +38,7 @@ const Contact = () => {
           Let’s Collaborate
         </button>
       </form>
-    </div>
+    </section>
   );
 };
 
